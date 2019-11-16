@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*
+Tyler Marrapese
+11/15/19
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	box-sizing: border-box; 
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14pt;
+	color: black;
+	background-color: white;
+	line-height: 0.95;
+	margin: 0;
+}
+a {
+	color: white;
+}
+
+.header {
+	background-image: url("images/header.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.homebar {
+	position: sticky;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #2F2F2F;
+	color: white;
+	margin-top: -50px;
+	box-shadow: 0 2px 2px 1px #5F5F5F;
+	padding: 15px;
+}
+
+.homebar a {
+	text-decoration: none;
+}
+
+.homebar-align {
+	width: 56vw;
+	margin: auto;
+	padding: auto;
+}
+
+.sidebar {
+	float: right;
+	width: 20vw;
+}
+
+.posts {
+	float: left;
+	width: 35vw;
+	padding-right: 50px;
+}
+
+.posts a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+	position: relative;
+	display: block;
+	padding-bottom: 50px;
+}
+
+.content { 
+	margin: 0 auto;
+	padding: 5px;
+	width: 56vw;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #2F2F2F;
+	color: white;
+	clear: both;
+}
+
+.footer {
+	clear: both;
+}
+
+.copyright {
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+h1,h3 {
+	margin-top: 10px;
+}
+
+h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p::first-letter { 
+	font-size: 300%;
+    float: left;
+	margin-right: 5px;
+}
